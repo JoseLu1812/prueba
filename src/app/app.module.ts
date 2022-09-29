@@ -8,13 +8,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialImportsModule } from './modules/material-imports.module';
 import { DarkmodeComponent } from './darkmode/darkmode.component';
 import { MatIconModule } from '@angular/material/icon';
+import { Tabla1Component } from './tabla1/tabla1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HeaderComponent,
-    DarkmodeComponent
+    DarkmodeComponent,
+    Tabla1Component
   ],
   imports: [
     BrowserModule,
